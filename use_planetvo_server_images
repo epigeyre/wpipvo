@@ -1,0 +1,1 @@
+add_filter( 'ipvo_use_planetvo_images', '__return_true' );
