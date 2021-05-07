@@ -4,7 +4,7 @@
  * @param int $vehicule_id ID of the vehicle
  * @return string $concession_phone Phone number to use
  */
-$concession_phone = apply_filters( 'ipvo_vl_contact_phone_number', get_post_meta( $vehicule_id, 'AnnonceurContactsTelephones', true ), $vehicule_id );
+$concession_phone = apply_filters( 'ipvo_vl_contact_phone_number', $concession_phone, $vehicule_id );
 
 /**
  * Simple example of how to use it
