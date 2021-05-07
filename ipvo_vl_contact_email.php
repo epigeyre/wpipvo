@@ -1,3 +1,4 @@
+<?php
 /**
  * Allow filtering of email used on the vehicle single post
  * 
