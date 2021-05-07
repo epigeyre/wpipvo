@@ -1,3 +1,4 @@
+<?php
 /**
  * Allow filtering of phone number used on the vehicle single post
  * 
