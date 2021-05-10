@@ -10,4 +10,6 @@ $concession_email = apply_filters( 'ipvo_vl_contact_email', $concession_email, $
 /**
  * Simple example of how to use it
  */
- add_filter( 'ipvo_vl_contact_email', 'email@email.com' );
+add_filter( 'ipvo_vl_contact_email', function() {
+    return 'email@email.com';
+});
