@@ -10,4 +10,6 @@ $concession_phone = apply_filters( 'ipvo_vl_contact_phone_number', $concession_p
 /**
  * Simple example of how to use it
  */
- add_filter( 'ipvo_vl_contact_phone_number', '0123456789' );
+add_filter( 'ipvo_vl_contact_phone_number', function() {
+    return '0123456789';
+});
